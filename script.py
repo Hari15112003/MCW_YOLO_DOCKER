@@ -19,7 +19,7 @@ results = model(img)
 results.print()
 
 # Save and show results
-results.save()
+results.save(save_dir = "/media/bmw/harisharajan_r_r/docker/output")
 
 # Display image with bounding boxes
 plt.imshow(np.array(img))
